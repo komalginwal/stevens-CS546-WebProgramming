@@ -1,0 +1,20 @@
+<main>
+<section>
+
+<h1>{{title}}</h1>
+<h2>{{personName}}</h2>
+    {{#if people}}
+<div>
+  <ul>{{#each people}}
+    <li><a href="/details/{{id}}">{{firstName}} {{lastName}}</a></li>
+    {{/each}}
+  </ul>
+    {{else}}
+    <p class="not-found">We're sorry, but no results were found for {{personName}}.</p> 
+</div>
+    {{/if}}
+<div>
+   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/">Search More</a>
+</div>
+</section>
+</main>

@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab9",
+  "version": "1.0.0",
+  "description": "LAB9",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Komal Ginwal 10449929",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

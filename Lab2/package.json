@@ -1,0 +1,11 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "LAB 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Komal Ginwal 10449929",
+  "license": "ISC"
+}

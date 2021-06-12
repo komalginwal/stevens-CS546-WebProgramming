@@ -1,0 +1,14 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "First Exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "KOMAL GINWAL",
+  "license": "ISC"
+}

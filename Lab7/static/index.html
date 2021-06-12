@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Prime Number Checker</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../public/style.css">
+</head>
+<body>
+
+<article>
+        <header>
+                <h1>Prime Number Checker</h1>
+                </header>
+<form id="primeNumber" onsubmit="return false">
+<label for="number">Enter the number</label>
+<input name="number" type="number" id="number">
+<button type="submit" onclick="check()">Check</button>
+</form>
+<ol id="attempts">
+</ol>
+</article>
+<footer>
+<p>Komal Ginwal Student CWID : 10449929 </p>
+<p>The good news is one person has what it takes to change the world with their kindness and hardwork. The bad news is that you havent realized yet that its "You".</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>;
+<script>
+function check(){
+var number = $("#number").val()
+if(!number){
+alert("Number Not Present")
+}else{
+var check = checkPrimeNumber(number)
+if(check){
+$("#attempts").append("<li class='is-prime'>"+number+" is a Prime Number</li>")
+}
+else{
+$("#attempts").append("<li class='not-prime'>"+number+" is Not a Prime Number</li>")
+}
+}
+
+return false;
+}
+function checkPrimeNumber(number){
+for(var i=2;i<number;i++){
+if(number % i === 0){
+return false
+}
+}
+return number>1
+}
+</script>
+</body>
+</html>

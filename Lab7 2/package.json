@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Komal Ginwal 10449969",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "uuid": "^3.3.3"
+  }
+}

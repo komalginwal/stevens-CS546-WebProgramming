@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "LAB 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Komal Ginwal 10449929",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}

@@ -1,0 +1,25 @@
+.is-prime{
+    color : #00E676;
+}
+
+.not-prime{
+    color: #FF3D00;
+}
+
+label{
+    margin: 100px;
+    font-style: oblique;
+}
+
+h1{
+    text-align: center;
+    font-size: x-large;
+    background-color:yellowgreen;
+  }
+p{
+    margin: 100px;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+    background-color:gray;
+  }

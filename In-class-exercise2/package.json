@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-exercise-2",
+  "version": "1.0.0",
+  "description": "Exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Komal Ginwal 10449929",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}
